@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.qrCard {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  text-align: center;
+  border-radius: 1em;
+  padding: 15px;
+}
+.qrImg {
+  max-width: 100%;
+  border-radius: 1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
