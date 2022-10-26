@@ -1,3 +1,131 @@
+/* CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Styles */
 * {
   box-sizing: border-box;
 }
@@ -13,29 +141,32 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: hsl(220, 15%, 55%);
+  padding: 0.625rem;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 700;
+  padding: 0.625rem;
 }
 
-.qrCard {
+.qr-card {
   background-color: hsl(0, 0%, 100%);
   width: 300px;
   text-align: center;
   border-radius: 1em;
-  padding: 15px;
+  padding: 0.9375rem;
 }
-.qrImg {
+.qr-img {
   max-width: 100%;
   border-radius: 1em;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
